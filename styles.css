@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 100px;
+    /* justify-content: space-around; */
+    background-color: black;
+}
+
+.list{
+    display: flex;
+    gap: 50px;
+
+}
+
+.list li{
+    list-style-type: none;
+    color: white;
+    font-size: 20px;
+
+
+}
+.input{
+    position: relative;
+}
+
+.search{
+    position: absolute;
+    left: 10px;
+    top: 8px;
+}
+
+
+
+.input input{
+    background-color: black;
+    border: 1px solid #e40084;
+    padding: 10px 25px;
+    border-radius: 8px;
+    color: #8d8b85;
+    font-weight: 600;
+    padding-left: 35px;
+}
+
+.login{
+    text-decoration:none ;
+    color: #e40084;
+    font-size: 20px;
+}
+
+.btn{
+    background-color: #e40084;
+    color: white;
+    padding:10px 25px ;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.menu{
+    display: none;
+}
+
+@media screen and (max-width:600px){
+    .logo{
+        width: 100px;
+    }
+
+    .logo img{
+        width: 100%;
+    }
+
+    .list,.list li,.search,.input,.login,.input input,.btn{
+        display: none;
+    }
+
+    .menu{
+        display: block;
+        color: white;
+    }
+
+}
+
+@media screen and (max-width:900px) {
+    .logo{
+        width: 90px;
+    }
+
+    .logo img{
+        width: 100%;
+    }
+
+    .nav-bar{
+        padding: 10px 40px;
+    }
+
+    .list{
+        gap: 20px;
+    }
+
+    .list li{
+        font-size: 16px;
+    }
+
+    .login{
+        font-size:18px ;
+    }
+
+    .input input{
+        /* padding: 10px 25px; */
+        padding-left: 30px;
+    }
+
+    .btn{
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+}
