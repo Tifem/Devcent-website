@@ -1,7 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins";
 }
 
 .nav-bar{
@@ -11,6 +15,7 @@
     padding: 10px 100px;
     /* justify-content: space-around; */
     background-color: black;
+    border-bottom:1px solid #9b9b9b;
 }
 
 .list{
@@ -35,8 +40,6 @@
     left: 10px;
     top: 8px;
 }
-
-
 
 .input input{
     background-color: black;
@@ -66,6 +69,158 @@
 .menu{
     display: none;
 }
+
+.hero-section{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding: 100px;
+}
+
+.hero-text{
+    color: #ffba0e;
+    font-size: 45px;
+}
+
+.hero-left p{
+    color: #9b9b9b;
+    font-size: 30px;
+}
+
+.hero-right img{
+    width: 550px;
+}
+
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: start;
+}
+
+.courses{
+    background-color: black;
+   
+}
+
+.course-text{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding: 0px 200px;
+}
+
+.tech{
+    color: #ffba0e;
+}
+
+.life{
+    color: #e40084;
+}
+
+.box{
+    background-color: white;
+    padding:35px 20px ;
+    border-radius: 25px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: start;
+}
+
+.box-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 100px;
+    gap: 24px;
+    justify-content: center;
+}
+
+.box p{
+    font-size: 18px;
+}
+
+/* .view{
+    background-color: #e40084;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 15px 50px;
+    margin: 20px auto;
+    border: none;
+    font-weight: bold;
+} */
+
+.view{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0 150px 0;
+}
+
+.view button{
+    padding: 10px 50px;
+    background-color: #e40084;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+}
+
+.start-now{
+    background-color: black;
+}
+
+
+.start-now h1{
+    text-align: center;
+    color:#ffba0e;
+    font-size: 35px;
+
+}
+
+.learning-box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    color: white;
+    gap: 25px;
+
+}
+
+.the-best{
+    color: #ffba0e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.learning{
+/* border: 1px solid white; */
+display: flex;
+/* justify-content: center; */
+align-items: center;
+gap: 20px;
+width: 400px;
+height: 150px;
+}
+
+.learning-text p, .capstone-text p, .learn-text p{
+    color: #9b9b9b;
+    font-size: 16px;
+    padding: 8px 0;
+}
+
+
+
+
+
+
+
 
 @media screen and (max-width:600px){
     .logo{
