@@ -82,6 +82,17 @@
     font-size: 45px;
 }
 
+/* .hero-text::after{
+    content: "Discover the limitless possibilities of the digital world of tech at Devcent";
+    color: #ffba0e;
+
+}
+
+.hero-text::before{
+    content: " ";
+    position: absolute;
+} */
+
 .hero-left p{
     color: #9b9b9b;
     font-size: 30px;
@@ -92,6 +103,7 @@
 }
 
 .hero-left{
+    position: relative;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -137,25 +149,16 @@
     justify-content: center;
 }
 
+
 .box p{
     font-size: 18px;
 }
 
-/* .view{
-    background-color: #e40084;
-    color: white;
-    font-size: 16px;
-    border-radius: 10px;
-    padding: 15px 50px;
-    margin: 20px auto;
-    border: none;
-    font-weight: bold;
-} */
 
 .view{
     display: flex;
     justify-content: center;
-    padding: 40px 0 150px 0;
+    padding: 40px 0 100px 0;
 }
 
 .view button{
@@ -173,12 +176,11 @@
 }
 
 
-.start-now h1{
-    text-align: center;
-    color:#ffba0e;
-    font-size: 35px;
-
+.gain{
+    background-color: black;
 }
+
+
 
 .learning-box{
     display: flex;
@@ -186,7 +188,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 100px;
+    padding: 20px 100px;
     color: white;
     gap: 25px;
 
@@ -197,24 +199,100 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 35px;
+
+}
+
+.gain-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+
+}
+
+
+.gain-text h1{
+    color: #ffba0e;
+    font-size: 35px;
+
+}
+
+.gain-box{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 100px;
+    color: white;
+    gap: 30px;
+
+}
+
+.gain-text p{
+    color: #9b9b9b;
+    font-size: 20px;
+    text-align: center;
+    padding: 30px 350px;
+
+    
 }
 
 .learning{
-/* border: 1px solid white; */
 display: flex;
-/* justify-content: center; */
 align-items: center;
 gap: 20px;
 width: 400px;
 height: 150px;
 }
 
+
+.gain-container{
+display: flex;
+align-items: start;
+gap: 20px;
+width: 500px;
+height: 150px;
+}
+
+.gain-check{
+   background-color: #e40084;
+   padding:2px 3px;
+   border-radius: 12px;
+}
 .learning-text p, .capstone-text p, .learn-text p{
     color: #9b9b9b;
     font-size: 16px;
     padding: 8px 0;
 }
 
+.global-text p, .support-text p, .industry-text p, .skills-text p{
+    color: #9b9b9b;
+    font-size: 16px;
+    padding: 8px 0;
+}
+
+.level-box{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    justify-content: space-around;
+    /* align-items: center; */
+    padding:  100px;
+    color: white;
+    gap: 30px;
+
+}
+
+.level-container{
+    display: flex;
+    align-items: start;
+    gap: 20px;
+    width: 300px;
+    height: 190px;
+    /* border: 1px solid white; */
+    }  
 
 
 
@@ -255,25 +333,31 @@ height: 150px;
         padding: 10px 40px;
     }
 
-    .list{
-        gap: 20px;
+    .search,.input,.login{
+        display: none;
     }
+
+    /* .list{
+        gap: 20px;
+    } */
 
     .list li{
         font-size: 16px;
     }
 
-    .login{
-        font-size:18px ;
-    }
-
-    .input input{
-        /* padding: 10px 25px; */
-        padding-left: 30px;
-    }
-
+    
     .btn{
         padding: 10px 15px;
         font-size: 16px;
+    }
+
+    .hero-section{
+        flex-direction: column;
+        padding: 50px;
+    }
+
+
+    .hero-right img{
+        width: 350px;
     }
 }
