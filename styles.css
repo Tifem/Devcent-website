@@ -29,8 +29,13 @@
     color: white;
     font-size: 20px;
 
-
 }
+
+.courses{
+    text-decoration: none;
+    color: white;
+}
+
 .input{
     position: relative;
 }
@@ -152,8 +157,12 @@
 
 .box p{
     font-size: 18px;
+    color: black;
 }
 
+.box h1 {
+    color: black;
+}
 
 .view{
     display: flex;
@@ -267,38 +276,121 @@ height: 150px;
     padding: 8px 0;
 }
 
-.global-text p, .support-text p, .industry-text p, .skills-text p{
+.support-text p, .industry-text p, .skills-text p{
     color: #9b9b9b;
     font-size: 16px;
-    padding: 8px 0;
+    padding: 10px 7px;
+    font-weight: bold;
 }
 
-.level-box{
+.global-text p{
+    color: #9b9b9b;
+    font-size: 16px;
+    padding: 10px 35px;
+    font-weight: bold;
+    text-align:start;
+}
+
+.le{
     display: flex;
     flex-wrap: wrap;
-    /* flex-direction: row; */
-    justify-content: space-around;
-    /* align-items: center; */
-    padding:  100px;
     color: white;
-    gap: 30px;
+    justify-content: center;
+    gap: 35px;
+    padding-top: 100px;
+
+}
+.level-box{
+    width: 350px;
 
 }
 
 .level-container{
     display: flex;
-    align-items: start;
+    align-items: center;
     gap: 20px;
     width: 300px;
-    height: 190px;
-    /* border: 1px solid white; */
+    justify-content: center;
     }  
 
 
+.footer{
+    background-image: url('images/footerbg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border-top: 5px solid palevioletred; */
+    color: white;
+}
+
+.footer-box{
+    /* display: grid; */
+    /* grid-template-columns: repeat(2,1fr); */
+    display: flex;
+    padding-top: 70px;
+}
+
+.footer-right{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-top: 50px;
+    padding-right: 120px;
+
+}
+
+.footer-left{
+    padding: 100px ;
+    width: 580px; 
+
+}
+
+.footer-box1 ul li{
+    list-style-type: none;
+    padding: 8px 0;
+}
+.footer-box2 ul li{
+    list-style-type: none;
+    padding: 8px 0;
+
+}
+
+.footer-left p{
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.address{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    padding: 0 10px;
+}
+
+.address img{
+    margin-right: 25px;
+}
 
 
+.address p{
+    font-size: 14px;
+    padding:10px;
+}
 
+.footer-icons{
+    padding: 40px 100px;
+    
+}
 
+.footer-icons img{
+    margin-right:15px ;
+    /* border: 1px solid white; */
+    height: 30px;
+}
+
+.footer-para{
+    text-align: center;
+    padding-bottom: 20px;
+}
 
 @media screen and (max-width:600px){
     .logo{

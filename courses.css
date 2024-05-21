@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 100px;
+    /* justify-content: space-around; */
+    background-color: black;
+    border-bottom:1px solid #9b9b9b;
+}
+
+.list{
+    display: flex;
+    gap: 50px;
+
+}
+
+.list li{
+    list-style-type: none;
+    color: white;
+    font-size: 20px;
+}
+
+.courses{
+    text-decoration: none;
+    color: white;
+}
+.input{
+    position: relative;
+}
+
+.search{
+    position: absolute;
+    left: 10px;
+    top: 8px;
+}
+
+.input input{
+    background-color: black;
+    border: 1px solid #e40084;
+    padding: 10px 25px;
+    border-radius: 8px;
+    color: #8d8b85;
+    font-weight: 600;
+    padding-left: 35px;
+}
+
+.login{
+    text-decoration:none ;
+    color: #e40084;
+    font-size: 20px;
+}
+
+.btn{
+    background-color: #e40084;
+    color: white;
+    padding:10px 25px ;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.menu{
+    display: none;
+}
+
+.hero-section{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding: 100px;
+}
+
+.hero-text{
+    color: #ffba0e;
+    font-size: 45px;
+}
+
+
+
+.hero-left p{
+    color: #9b9b9b;
+    font-size: 30px;
+}
+
+.hero-right img{
+    width: 550px;
+}
+
+.hero-left{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: start;
+}
+
+.courses{
+    background-color: black;
+   
+}
+
+.course-text{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding: 0px 200px;
+}
+
+.tech{
+    color: #ffba0e;
+}
+
+.life{
+    color: #e40084;
+}
+
+.box{
+    background-color: white;
+    padding:35px 20px ;
+    border-radius: 25px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: start;
+}
+
+.box-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 100px;
+    gap: 24px;
+    justify-content: center;
+}
+
+
+.box p{
+    font-size: 18px;
+}
+
+
+.view{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0 100px 0;
+}
+
+.view button{
+    padding: 10px 50px;
+    background-color: #e40084;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+}
+
+.courses-box{
+    background-color: black;
+    color: white;
+    padding: 60px 300px;
+
+}
+
+.course-text h1{
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.course-text1{
+    font-size: 20px;
+    gap: 40px;
+    text-align: center;
+}
+
+
+
+
+.row{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    padding-top: 70px;
+
+
+}
+
+.col{
+    border: 1px solid rgb(59, 59, 143);
+    border-radius: 10px;
+    box-shadow:rgba(109, 109, 230, 0.05) 0px 1px 0px, rgba(19, 19, 175, 0.9) 0px 0px 8px;
+
+}
+
+
+
+.ui img{
+    width: 400px;
+    height: 220px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+
+.content-card{
+    padding: 10px 20px;
+}
+
+.content-card h1{
+    font-size: 20px;
+}
+.content-card p{
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+.learn-best{
+    background-color: black;
+    /* background-image: url('images/devcentbg.png'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 30px;
+
+}
+
+.learn-text{
+    color: #ffba0e;
+    font-size: 35px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.learn-best-p{
+    font-size: 17px;
+    color: #9b9b9b;
+    padding: 10px 450px;
+    text-align: center;
+    /* border: 1px solid white; */
+
+}
+
+.learn-box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 30px;
+}
+
+.learn-card1 img, .learn-card2 img, .learn-card3 img{
+    border-radius: 50%;
+}
+
+.learn-card1, .learn-card2, .learn-card3{
+    border: 1px solid white;
+    /* width: 40px 300px; */
+}
+
