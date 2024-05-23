@@ -259,14 +259,18 @@
     align-items: center;
     color: white;
     gap: 30px;
+    padding: 0 200px;
 }
 
 .learn-card1 img, .learn-card2 img, .learn-card3 img{
     border-radius: 50%;
+    margin: 0 auto;
 }
 
 .learn-card1, .learn-card2, .learn-card3{
     border: 1px solid white;
+    height: 450px;
+
     /* width: 40px 300px; */
 }
 
