@@ -392,26 +392,6 @@ height: 150px;
     padding-bottom: 20px;
 }
 
-@media screen and (max-width:600px){
-    .logo{
-        width: 100px;
-    }
-
-    .logo img{
-        width: 100%;
-    }
-
-    .list,.list li,.search,.input,.login,.input input,.btn{
-        display: none;
-    }
-
-    .menu{
-        display: block;
-        color: white;
-    }
-
-}
-
 @media screen and (max-width:900px) {
     .logo{
         width: 90px;
@@ -453,3 +433,24 @@ height: 150px;
         width: 350px;
     }
 }
+
+@media screen and (max-width:600px){
+    .logo{
+        width: 100px;
+    }
+
+    .logo img{
+        width: 100%;
+    }
+
+    .list,.list li,.search,.input,.login,.input input,.btn{
+        display: none;
+    }
+
+    .menu{
+        display: block;
+        color: white;
+    }
+
+}
+
