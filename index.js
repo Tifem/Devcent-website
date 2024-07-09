@@ -143,3 +143,98 @@ if(day == "Monday"){
 // alert("Today ")
 }
 
+var months = "May"
+
+switch(months){
+
+    case "January":
+        console.log("This month is january")
+        break;
+
+    case "February":
+        console.log("It's february month")
+        break;
+
+    default:
+        console.log("None is part of month of the year")
+        break;
+
+}
+
+//prompt
+// var grade = prompt("What is your grade?")
+// if(grade >= 70){
+//     console.log("your grade is A")
+// }else{
+//     console.log("Try again later")
+// }
+
+function performMathsOperation(number1, number2, operationType){
+    if(operationType == "add"){
+        const result = number1 + number2
+        return result
+    }else if(operationType == "sub"){
+        const result = number1 - number2
+        return result
+    }else{
+        alert("Operation is not supported")
+    }
+}
+
+const sumResult = performMathsOperation(45, 20, "mul")
+console.log(sumResult)
+
+//function expression
+// const sayHello = function(){
+//     alert("Good Morning")
+// }
+
+// sayHello()
+
+const sayName = function(firstName){
+    alert(`Your name is: ${firstName}`)
+}
+
+sayName("Boluwatife")
+//function declaration
+
+// function sayHelloWorld(){
+//     alert("Welcome to class")
+// }
+
+// sayHelloWorld()
+
+//Arrow Function
+
+// let sum = (a,b)=> a+b;
+
+// let greetings = () => alert("You are welcome");
+// greetings()
+
+// iterate over the array with map
+
+// let usernames = ["john", "azeez", "lekan", "tife", "akintunde"]
+// let usernameInUppercase = usernames.map((username) =>{
+//     // console.log(username)
+// const transformedUsername = username.toUpperCase()
+// return transformedUsername
+// })
+
+// console.log(usernameInUppercase)
+
+//iterate over the array with filter
+
+// let populations = [200, 100, 30, 4,5,60]
+
+// console.log(`Default population: ${populations}`)
+
+// let populationGreaterThan30 = populations.filter((population) =>{
+//     if(population > 30){
+//         return population
+//     }
+// })
+
+// console.log(populationGreaterThan30)
+
+//Map
+//Map is a collection of keyed data items, just like an object. But the difference between object and map is that map allows keys of any types
